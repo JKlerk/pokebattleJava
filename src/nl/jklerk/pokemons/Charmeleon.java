@@ -8,6 +8,11 @@ import nl.jklerk.Weakness;
 import java.util.ArrayList;
 
 public class Charmeleon extends Pokemon {
+    /**
+     * Creates a pokemon object with nickname coming from main
+     *
+     * @param name nickname of the pokemon
+     */
     public Charmeleon(String name){
         super(name, "Fire", 60f, new Weakness("Water", 2f), new Resistance("Lightning", 0.5f), new ArrayList(){{add(new Attack("Attack1", 20f));add(new Attack("Attack2", 20f));}});
     }

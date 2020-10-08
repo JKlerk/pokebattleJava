@@ -1,8 +1,8 @@
 package nl.jklerk;
 
 public class Attack {
-    private String name;
-    private Float damage;
+    private final String name;
+    private final Float damage;
 
     public Attack(String name, Float damage){
         this.name = name;

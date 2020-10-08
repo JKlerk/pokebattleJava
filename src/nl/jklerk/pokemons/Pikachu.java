@@ -7,7 +7,13 @@ import nl.jklerk.Weakness;
 
 import java.util.ArrayList;
 
+
 public class Pikachu extends Pokemon {
+    /***
+     * Creates a pokemon object with nickname coming from main
+     *
+     * @param name nickname of the pokemon
+     */
     public Pikachu(String name){
         super(name, "Lightning", 60f, new Weakness("Fire", 1.5f), new Resistance("Fighting", 0.5f), new ArrayList(){{add(new Attack("Attack1", 20f));add(new Attack("Attack2", 20f));}});
     }
