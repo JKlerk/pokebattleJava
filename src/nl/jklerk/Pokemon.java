@@ -2,7 +2,7 @@ package nl.jklerk;
 
 import java.util.ArrayList;
 
-public abstract class Pokemon {
+public class Pokemon {
     private final String name;
     private final String energytype;
     private final Weakness weakness;
